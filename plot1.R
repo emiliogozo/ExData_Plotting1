@@ -12,9 +12,6 @@ dt1 <- strptime("01/02/2007", format="%d/%m/%Y")
 dt2 <- strptime("02/02/2007 23:59:00", format="%d/%m/%Y %H:%M:%S")
 csv <- csv[csv$DateTime >= dt1 & csv$DateTime <= dt2,]
 
-#grDevice
-
-
 #plot
 hist(csv$Global_active_power, col="red", 
 	main="Global Active Power", 
