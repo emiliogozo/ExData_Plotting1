@@ -18,7 +18,7 @@ with(csv,
 		xlab=NA,
 		ylab="Global Active Power (kilowatts)"))
 #save as png
-dev.copy(png,"plot1.png",width=480,height=480)
+dev.copy(png,"plot2.png",width=480,height=480)
 #close grDevice
 dev.off()
 
