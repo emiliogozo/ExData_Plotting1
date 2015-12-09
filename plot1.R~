@@ -22,6 +22,6 @@ hist(csv$Global_active_power, col="red",
 #save as png
 dev.copy(png,"plot1.png",width=480,height=480)
 #close grDevice
-dev.off()
+sdsdev.off()
 
 q("no")
